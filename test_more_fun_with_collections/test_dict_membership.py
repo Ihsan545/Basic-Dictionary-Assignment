@@ -11,7 +11,7 @@ class ScoreTestCase(unittest.TestCase):
 
     def test_in_dict_is_true(self):
         name = 'score3'
-        expected_result = {'score3': 0}
+        expected_result = {'score3': 50}
         self.assertTrue(expected_result.get(name))
 
 
